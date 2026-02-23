@@ -165,7 +165,11 @@ export default function Home() {
         <div className="w-full max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="font-ibm-plex text-[14px] text-[#6B7280]">© 2026 Visual Capital</p>
           <div className="flex items-center gap-6 text-[#6B7280]">
-            <a href="#" className="hover:text-[#1E3A5F] transition-colors" aria-label="Twitter">
+            <a
+              href="https://x.com/visualcapital_"
+              className="hover:text-[#1E3A5F] transition-colors"
+              aria-label="Twitter"
+            >
               <Twitter className="w-5 h-5" />
             </a>
             <a href="#" className="hover:text-[#1E3A5F] transition-colors" aria-label="Email">
